@@ -1,0 +1,165 @@
+ID	Section 		Sub-section 			Description 									Result
+
+1	Welcome screen		Company logo			Is displayed on the top of the screen						Passed
+
+				Application information		The text is over the button, no orthographical or grammatical errors		Passed
+
+				"Let’s start" button		The button is at the bottom of the screen, the background is green, 		Failed
+								the button is active
+
+2	More info screens	First tab			1) The text "Pick one of the proposed options" is at the bottom of 		Passed
+								the screen
+								2) Five round buttons are available
+								3) The first button is active
+								4) Swiping the page to the right opens the second screen
+
+
+				Second tab			1) The text "Check the additional options" is at the bottom of			Passed
+								the screen
+								2) Four round buttons are available
+								3) The second button is active
+								4) Swiping the page to the left opens the first screen
+								5) Swiping the page to the right opens the third screen
+
+				Third tab			1) The text "Pick your favorite soundtrack" is at the bottom 			Passed
+								of the screen
+								2) Five round buttons are available
+								3) The third button is active
+								4) Swiping the page to the left opens the second screen
+								5) Swiping the page to the right opens the fourth screen
+
+				Fourth tab			1) The text "You are almost there! Set up your current timezone." 		Passed
+								is at the bottom of the screen
+								2) 5 round buttons are available
+								3) The fourth button is active
+								4) Swiping the page to the left opens the third screen
+								5) Swiping the page to the right opens Login screen
+
+3	Login screen		Company logo			Is displayed above the buttons, centered Passed
+				
+				"Sign in with your		The background of the button is green, the button is active			Passed
+				Google account" button
+
+				The info text			The text is without grammatical or orthographic errors				Failed
+				
+				The "Terms of use" links	The links (2) are active 							Passed
+
+4	Terms of use page	"Back" button			Return to the “Login” screen 							Passed
+				
+				Screen title 			The title is: Terms of Use 							Passed
+	
+				The text			1) The text is without grammatical or orthographic errors			Passed
+								2) The page can be zoomed in/out
+
+5	Terms of use page 2	"Back" button			Return to the “Login” screen 							Passed
+
+				Screen title 			The title is: Terms of Use 2 							Passed
+
+				The text 			1) The text is without grammatical or orthographic errors			Passed
+								2) The page can be zoomed in/out
+
+6	Phone screen		Allow access to messages	User receives messages 								Passed
+
+				Deny access to messages		User does not receive messages 							Passed
+
+				"Back" button			The hardware (Android) back button returns to the "Login" screen		Passed
+				
+				Screen title			The title is: "Sign in with your phone number", the title is centered		Passed
+
+				Phone field			1) The text is: "Enter your phone number" above the number field		Passed
+								2) The numbers in the field starts from "+380" (depends on location)
+								3) The numeric virtual keyboard is opened by default
+								4) The keyboard closes by tapping the "Done" button (on the keyboard)
+
+				Error message			1) The entered phone number is incorrect					Passed
+								2) The error window is opened
+								3) Error message after entering number without internet connection		
+
+				"Text me my access code"	1) The text above the button is: "Text me my access code"			Passed
+				button				2) The button is green-coloured
+								3) The SMS login page is opened after entering the correct phone number
+
+7	Login via phone		Automatic login			The section is automatically skipped if the sim-card is used in the phone 	Passed
+	number							(optional)
+
+				"Back" button			The hardware (Android) back button returns to the "Login" screen		Passed
+
+				Screen title			The title is: "Sign in with your phone number", the title is centered		Failed
+
+				Error message			1) Wrong code entered								Passed
+								2) Code entered without internet
+								3) Old code is entered
+
+				Number field			1) The text above the field is: "Enter the code you received"			Passed
+								2) The numeric virtual keyboard is opened by default
+								3) The keyboard closes by tapping the "Done" button (on the keyboard)
+
+				"Login" button			1) The button is green-coloured							Passed
+								2) The "Code should be 4 digits" message appears after tapping the button
+								3) The profile page appears after entering the correct code
+
+				"I didn't get the text		1) The pop-up window is opened after tapping					Passed
+				message" button			2) Edit .... - returns to the phone screen
+								3) Cancel - closes the pop-up window
+
+8	Profile page		Main screen 			The text is without orthographic and grammatical errors				Passed
+
+								1) The years picker can be selected						Passed
+								2) The "Year of birth" input is focused by default (for a new user)
+								3) The date range is 1917-2016
+
+								1) The sex can be selected: Male and Female					Passed
+								2) The "Male" sex is marked by default
+
+								All texts are aligned properly on the screen and on the buttons			Passed
+
+								The input field "First name" can be selected and is editable			Passed
+			
+								The "Continue" button is green 							Passed
+
+								The "Continue" button is tappable 						Passed
+	
+								All buttons are aligned properly 						Passed
+
+				Photo				The photo can be uploaded via the library 					Passed
+								
+								The photo can be taken via the camera 						Passed
+							
+								The photo can be changed after uploading 					Passed
+
+				Denied access			Correct message when access to camera/gallery is denied				Passed
+
+				FB data import			The "Import details from Facebook" button is on the top of the screen		Passed
+
+								The button is blue-coloured 							Passed
+
+								The button is active (if data wasn't previously imported)			Passed
+
+								The button is inactive (if data was previously imported)			Passed
+
+								Check the import function for new users 					Passed
+
+								Check the import function for previously created users				Passed
+
+								Check the imported user profile 						Passed
+
+9	Main page		Location screen			The "Turn location on" and "No thanks" buttons are active			Passed
+
+								All texts are aligned properly on the screen and on the buttons			Passed
+
+								The text is without orthographic and grammatical errors				Passed
+
+								The "Turn location on" button is green 						Passed
+
+								Turn location on - pop-up for location is shown 				Passed
+
+								Skip step - no pop-up is shown 							Passed
+
+								Allow location services - user's location is displayed 				Passed
+
+								Deny location services - user's location is unknown 				Passed
+
+
+
+
+
